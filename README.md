@@ -11,12 +11,13 @@ This package is intend to make necessary optimization.
 ### 1. CCXT gateway support
 vnpy_ccxt
 ### 2. Backtest engine optimization
-* [] configurable initial capital
-* [] dynamic capital management
-* [] use real volumn to send order
-* [] Better statistics for short open strategy
+* [ ] Trading cannot exceed initial capital
+* [ ] Allow dynamic capital management
+* [ ] Use real volumn to send order
+* [ ] Better statistics for short open strategy
+* [ ] Output of trading/dailyresult 
 ### 3. Live Strategy optimization
-* [] Advanced strategy methods
-* [] Memory optimization for long time running
-* [] Reduce gateway API time consumption 
-* [] realtime strategy management
+* [ ] Advanced strategy methods
+* [ ] Memory optimization for long time running
+* [ ] Reduce gateway API time consumption 
+* [ ] realtime strategy management
