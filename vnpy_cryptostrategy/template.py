@@ -339,7 +339,7 @@ class CtaTemplate(ABC):
             self.cta_engine.sync_strategy_data(self)
 
 
-class CtaSignal(ABC):
+class Signal(ABC):
     """"""
 
     def __init__(self) -> None:

@@ -8,8 +8,7 @@ from vnpy.trader.utility import BarGenerator, ArrayManager
 
 from .base import APP_NAME, StopOrder
 from .engine import CtaEngine
-from .template import CtaTemplate, CtaSignal, TargetPosTemplate
-
+from .template import CtaTemplate, Signal, TargetPosTemplate
 
 try:
     __version__ = importlib_metadata.version("vnpy_ctastrategy")
